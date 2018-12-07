@@ -3010,7 +3010,7 @@ client.on("guildMemberAdd", member => {
       var jimp = require('jimp')
       
       const w = ['w.png'];
-      
+  
               let Image = Canvas.Image,
                   canvas = new Canvas(557, 241),
                   ctx = canvas.getContext('2d');
