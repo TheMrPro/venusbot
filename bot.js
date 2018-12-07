@@ -26,17 +26,6 @@ const sql = require("sqlite");
 ,ti={}  
 ,spee={};
 
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Venus Bot Script By : ImMohamed`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : ImMohamed ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Venus | -help`,"http://twitch.tv/Dream")
-client.user.setStatus("dnd")
-});
- 
 
 
 client.on("message", message => {
